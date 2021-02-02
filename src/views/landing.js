@@ -21,18 +21,17 @@ export default class Dashboard extends Component {
     this.state={
       modal:false,
       signup:false,
-      isScreen:false
+      verified:false
     }
   }
   handleShow(){
-    this.setState({modal:true, isScreen:true})
+    this.setState({modal:true, verified:false})
   }
-  handleClose(e, data){
-    e.preventDefault()
+  handleClose( data){
     if (data == true) {
-      this.setState({modal:false, signup: false,isScreen:false})
+      this.setState({modal:false, signup: false,verified:true})
     }else{
-      this.setState({modal:false, signup: false,isScreen:true})
+      this.setState({modal:false, signup: false,verified:false})
     }
 
   }
@@ -43,7 +42,7 @@ export default class Dashboard extends Component {
   //   this.setState({modal:false})
   // }
   render() {
-    const{modal, signup, isScreen} = this.state;
+    const{modal, signup, verified} = this.state;
     return (
       <>
         <div className="container">
@@ -107,7 +106,7 @@ export default class Dashboard extends Component {
         <Modal show={modal} onHide={()=> this.handleClose(false)}>
           <Modal.Header closeButton></Modal.Header>
             <Modal.Body>
-              {isScreen && <>
+               <>
                 <div className="padding-30">
               <h5 className="text-center text-dark text-bold">Welcome to iTop</h5>
               <h6 className="text-center">Get started in just 3 steps</h6>
@@ -128,7 +127,7 @@ export default class Dashboard extends Component {
                   </Form.Text>
                 </Form.Group>
                 <Form.Group className="text-center">
-                  <button onClick={(e)=> this.handleClose(e, true)} className="btn btn-primary text-uppercase">
+                  <button onClick={()=> this.handleClose(true)} className="btn btn-primary text-uppercase">
                     continue
                   </button>
                 </Form.Group>
@@ -136,16 +135,28 @@ export default class Dashboard extends Component {
                   <p>Already have an account with iTop? <a className="text-uppercase" href="">Login</a></p>
                 </Form.Group>
               </Form>
-              </div> </>}
-              {!isScreen &&
-<div>
-<div>
-<img src={checkedimg} />
-</div>
-</div>
-              }
+              </div> </>
+
             </Modal.Body>
           </Modal>
+          <Modal show={verified} onHide={()=> this.handleClose(false)}>
+            <Modal.Header closeButton></Modal.Header>
+              <Modal.Body>
+                 <>
+
+                <div className="padding-30">
+                <div>
+                <div className="text-center mb-5">
+                <img src={checkedimg} />
+                </div>
+                <h4 className="text-center text-bold mb-4 text-dark">Almost there!</h4>
+                <p className="text-center">You must have received an email with the verification link.
+Please complete the verfication from the link.</p>
+                </div>
+                </div> </>
+
+              </Modal.Body>
+            </Modal>
           <Modal show={signup} size={'lg'} onHide={()=> this.handleClose(false)}>
             <Modal.Header closeButton></Modal.Header>
               <Modal.Body>
@@ -197,7 +208,7 @@ export default class Dashboard extends Component {
                     </button>
                   </Form.Group>
                   <Form.Group className="text-center mb-5">
-                    <p>Already have an account with iTop? <a className="text-uppercase" href="">Login</a></p>
+                    <p>By clicking ‘Sign up’ you agree to Autopilot’s <br /><a className="text-uppercase" href="">Terms of Service</a> & <a className="text-uppercase" href="">Privacy Policy</a></p>
                   </Form.Group>
                 </Form>
                 </div>
