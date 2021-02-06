@@ -1,0 +1,126 @@
+
+
+body{
+    font-family: Open Sans;
+}
+h1{
+    font-weight : 700;
+    font-size :48px;
+}
+h1{
+    font-weight : 700;
+    font-size :32px;
+}
+p{
+    font-weight : 400;
+    font-size :18px;
+    line-height: 27.13px;
+}
+.bg-section {
+    background: #F7F8FA;
+}
+.bluebghover{
+
+}
+.px-6{
+  padding-right: 5rem !important;
+  padding-left: 5rem !important;
+}
+.padding-bottom-10{
+  padding-bottom: 10%;
+}
+.casestudybanner{
+  width: 100%;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+.simplestart{
+  background: #DCECFF;
+  border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.essensials{
+  background: #FAE3E2;
+  border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+.professional{
+  background: #FFEECD;
+  border-top-left-radius: 10px;
+border-top-right-radius: 10px;
+}
+
+.pricingboxes{
+  margin-top: -21%;
+position: relative;
+}
+.font-bold{
+  font-weight: bold
+}
+.smallContainer{
+  width:60%; margin: 0 auto;
+}
+.sectionpadding80{
+  padding: 80px 0;
+}
+.boximg{
+  border-radius: 20px;
+box-shadow: 20px 35px 210px #cccccc40;
+}
+.bluebghover:hover{
+  background: #44AAF6;
+  transition: all 300ms linear;
+  color: #fff;
+  box-shadow: 0 5px 20px #cccccc50;
+}
+.carousel-indicators li {
+    height: 5px;
+    width: 5px;
+    border-radius: 100%;
+}
+.imgcarousel{
+  width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+.card{
+    border: none;
+    border-radius: 1.25rem;
+}
+.bg-card1{
+    background: #DCECFF;
+}
+.bg-card2{
+    background: #FAE3E2;
+}
+.bg-card3{
+    background: #DAF8F0;
+}
+.bg-card4{
+    background: #FFEECD;
+}
+.custom-btn {
+    background-color: #2DCCC2;
+}
+
+.custom-link {
+    color: #2DCCC2;
+}
+.bg-img{
+background-image: url('../assets/Rectangle.png') !important;
+background-position: center !important;
+background-repeat: no-repeat !important;
+background-size: cover !important;
+}
+.footer-heading {
+text-transform: uppercase;
+font-size: 16px;
+line-height: 150%;
+height: 40px;
+font-weight: 700;
+}
+
+footer ul {
+list-style: none;
+padding-left: 0px;
+}

@@ -3422,7 +3422,8 @@ input[type="button"].btn-block {
   flex-direction: column;
   min-width: 0;
   word-wrap: break-word;
-  background-color: #F7F8FA;
+  background-color: #fff;
+  box-shadow: 0 25px 100px #cccccc50;
   background-clip: border-box;
   border: 1px solid rgba(45, 55, 74, 0.125);
   border-radius: 0.25rem; }
@@ -4729,7 +4730,7 @@ a.close.disabled {
     margin-left: 3px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #F7F8FA;
+    background-color: #5db9b2;
     background-clip: padding-box;
     border-top: 10px solid transparent;
     border-bottom: 10px solid transparent;
