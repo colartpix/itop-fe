@@ -30,7 +30,7 @@ import jambotronwhy from '../assets/jambotronwhy.png';
 import chartwhy from '../assets/chartwhy.png';
 import Banner from '../assets/Banner.png';
 import whybox from '../assets/whybox.png';
-import features from '../assets/features.png';
+import call from '../assets/call.png';
 //
 
 export default class Contact extends Component {
@@ -128,164 +128,113 @@ export default class Contact extends Component {
 
         </div>
 <div className="container-fluid bg-white">
-        <div className="container sectionpadding80">
-          <div className="row">
-              <div className="col-lg-4">
-                  <div className=" card rounded-lg mb-3">
-                  <div className="simplestart p-4 text-center">
-                  <h5 className="font-bold text-dark">Simple Start</h5>
-                  <p className="mb-4 h6">For Small Business</p>
-                    <p className="mb-2"><span>$</span> <span className="h1 font-bold text-dark">10</span></p>
-                    <p className="mb-3 h6">Monthly per user</p>
-                  </div>
-                  <div className="p-4">
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Track income & expenses</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Send custom invoices/quotes</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Snap & store receipts</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Track kilometres</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Connect your bank</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Insights & reports</span>
-                  </div>
-                  <div className="mb-0 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Manage payroll</span>
-                  </div>
-                    </div>
-                    <div className="p-4 text-center">
-                    <button className="btn btn-primary px-6 text-uppercase">try now</button>
-                    </div>
-                    <p className="text-center">7 days free trial to start</p>
-
-                  </div>
-              </div>
-              <div className="col-lg-4">
-                  <div className=" card rounded-lg mb-3">
-                  <div className="essensials p-4 text-center">
-                  <h5 className="font-bold text-dark">Essentials</h5>
-                  <p className="mb-4 h6">For Medium Enterprises</p>
-                    <p className="mb-2"><span>$</span> <span className="h1 font-bold text-dark">20</span></p>
-                    <p className="mb-3 h6">Monthly per user</p>
-                  </div>
-                  <div className="p-4">
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Simple Start</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Essentials</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Manage payroll</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Manage suppliers & bills</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Multi currency</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Setup recurring transactions</span>
-                  </div>
-                  <div className="mb-0 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Manage users (upto 3)</span>
-                  </div>
-                    </div>
-                    <div className="p-4 text-center">
-                    <button className="btn btn-primary px-6 text-uppercase">try now</button>
-                    </div>
-                    <p className="text-center">30 days free trial to start</p>
-                  </div>
-              </div>
-              <div className="col-lg-4">
-                  <div className=" card rounded-lg mb-3">
-                  <div className="professional p-4 text-center">
-                  <h5 className="font-bold text-dark">Professional</h5>
-                  <p className="mb-4 h6">For Large Enterprises</p>
-                    <p className="mb-2"><span>$</span> <span className="h1 font-bold text-dark">30</span></p>
-                    <p className="mb-3 h6">Monthly per user</p>
-                  </div>
-                  <div className="p-4">
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Simple start + Essentials</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Multi currency</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Setup recurring transactions</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Manage users (upto 5)</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Track Inventory</span>
-                  </div>
-                  <div className="mb-4 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>Manage budgets</span>
-                  </div>
-                  <div className="mb-0 text-left">
-                    <img className="mr-3" src={pricing} />
-                    <span>CRM integration</span>
-                  </div>
-                    </div>
-                    <div className="p-4 text-center">
-                    <button className="btn btn-primary px-6 text-uppercase">try now</button>
-                    </div>
-                    <p className="text-center">30 days free trial to start</p>
-                  </div>
-              </div>
-        </div>
-        <div className="smallContainer pt-5">
-          <p className="font-bold text-dark text-uppercase text-center">Frequently asked questions</p>
-
-          <div className="mb-3 pt-5">
-            <p className="font-bold text-dark text-left mb-2">Do you have discounts for half yearly & yearly plans?</p>
-            <p className="m-0 text-left">We have discounts for half yearly & yearly plans. Please contact us for further details and volume pricing.</p>
+        <div className="smallContainer sectionpadding80">
+        <div className="row">
+          <div className="col-lg-6 col-sm-6 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Label>First Name</Form.Label>
+            <Form.Control className="bg-light" type="email" placeholder="name@example.com" />
+          </Form.Group>
           </div>
-
-          <div className="mb-3 pt-5">
-            <p className="font-bold text-dark text-left mb-2">Who has access to our payroll data?</p>
-            <p className="m-0 text-left">If you lock us out, not even our employees have access to any of your payroll or personnel information. Unless explicitly granted access on a need-to-know basis by customer using a secure switch, our support personnel cannot view any of your data.</p>
-          </div>
-
-          <div className="mb-3 pt-5">
-            <p className="font-bold text-dark text-left mb-2">How secure is my data?</p>
-            <p className="m-0 text-left">We take security and privacy of our customer data seriously and have highest grade security measures in place compared to rest of the industry. All sensitive information including payroll financials are encrypted with private keys that are unique to your organization!</p>
+          <div className="col-lg-6 col-sm-6 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Label>Last Name</Form.Label>
+            <Form.Control className="bg-light" type="email" placeholder="" />
+          </Form.Group>
           </div>
         </div>
+        <div className="row">
+          <div className="col-lg-6 col-sm-6 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Label>Work Email</Form.Label>
+            <Form.Control className="bg-light" type="email" placeholder="name@company.com" />
+          </Form.Group>
+          </div>
+          <div className="col-lg-6 col-sm-6 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Label>Job Title</Form.Label>
+            <Form.Control className="bg-light" type="email" placeholder="" />
+          </Form.Group>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-12 col-sm-12 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Label>Phone Number</Form.Label>
+            <Form.Control className="bg-light" type="email" placeholder="" />
+          </Form.Group>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-6 col-sm-6 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlInput1">
+            <Form.Label>Company Name</Form.Label>
+            <Form.Control className="bg-light" type="email" placeholder="" />
+          </Form.Group>
+          </div>
+          <div className="col-lg-6 col-sm-6 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlSelect1">
+            <Form.Label>Company Size</Form.Label>
+            <Form.Control placeholder="select" className="bg-light" as="select">
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </Form.Control>
+          </Form.Group>
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-lg-12 col-sm-12 col-xs-12">
+          <Form.Group controlId="exampleForm.ControlTextarea1">
+            <Form.Label>How can our team help you?</Form.Label>
+            <Form.Control className="bg-light" placeholder="Tell us more about your team and what kind of work do you do" as="textarea" rows={3} />
+          </Form.Group>
+          </div>
+
+        </div>
+<div className="text-center py-5">
+<button className="btn btn-primary text-uppercase font-bold">Contact Us</button>
+</div>
+
         </div>
 
     </div>
-
+  <div className="sectionpadding80">
+    <div className="container">
+    <div className="text-center text-uppercase font-bold mb-5">directly talk to our sales team</div>
+      <div className="row align-items-center justify-content-between">
+        <div className="col-lg-4 text-center">
+          <div className="text-center mb-4">
+          <img src={call} />
+          </div>
+          <div className="text-center">
+          <p className="h5 text-dark">+918485394749</p>
+          <p className="text-muted small">For Deployment</p>
+          </div>
+        </div>
+        <div className="col-lg-4 text-center">
+          <div className="text-center mb-4">
+          <img src={call} />
+          </div>
+          <div className="text-center">
+          <p className="h5 text-dark">+918485394749</p>
+          <p className="text-muted small">For CRM</p>
+          </div>
+        </div>
+        <div className="col-lg-4 text-center">
+          <div className="text-center mb-4">
+          <img src={call} />
+          </div>
+          <div className="text-center">
+          <p className="h5 text-dark">+918485394749</p>
+          <p className="text-muted small">For CRM</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
     <div className="bg-img sectionpadding80">
         <div className="container text-center py-5">
             <h6 className="text-white">Try iTop for your team</h6>
