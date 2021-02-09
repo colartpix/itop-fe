@@ -210,16 +210,17 @@ export default class Dashboard extends Component {
 
         <div className="container">
           <h2 className="text-center pb-5">END TO END CLOUD ERP SOLUTIONS</h2>
-          <div className="row pb-5">
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-0 pt-5">
+          <Row className="pb-5 align-items-center justify-content-between">
+
+            <Col className="pt-0 pt-5" xs={{ span:12, order: 'first' }} sm={{ span:12, order: 'first' }} lg={{ span:6, order: 'first' }}>
               <h2 className="pt-0 pt-5 mt-0 mt-5">Business Analytics</h2>
               <p>iTop dashboard suite will use data visualization to display key performance indicators that
               highlight
                         functional performance and generates actionable insights.</p>
               <button type="button" className="btn btn-primary text-white">ASK FOR A DEMO</button>
               <button type="button" className="btn custom-link">LEARN MORE</button>
-            </div>
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+            </Col>
+            <Col className="pt-0 pt-5" xs={{ span:12, order: 'last' }} sm={{ span:12, order: 'last' }} lg={{ span:6, order: 'last' }}>
 
             <Carousel controls={false}>
               <Carousel.Item>
@@ -250,50 +251,52 @@ export default class Dashboard extends Component {
                 </Carousel.Caption>
               </Carousel.Item>
             </Carousel>
-            </div>
-          </div>
+            </Col>
+          </Row>
 
-          <div className="row pb-5">
-          <div className="float-right col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-0 pt-5">
+          <Row className="pb-5 align-items-center justify-content-between">
+          <Col className="pt-0 pt-5" xs={{ span:12, order: 'last' }} sm={{ span:12, order: 'last' }} lg={{ span:6, order: 'first' }}>
+
+            <Carousel controls={false}>
+              <Carousel.Item>
+                <img
+                  className="d-block imgcarousel"
+                  src={Group_22}
+                  alt="First slide"
+                />
+                <Carousel.Caption>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block imgcarousel"
+                  src={Group_98}
+                  alt="Third slide"
+                />
+                <Carousel.Caption>
+                </Carousel.Caption>
+              </Carousel.Item>
+              <Carousel.Item>
+                <img
+                  className="d-block imgcarousel"
+                  src={Group_102}
+                  alt="Third slide"
+                />
+                <Carousel.Caption>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </Col>
+          <Col className="pt-0 pt-5" xs={{ span:12, order: 'first' }} sm={{ span:12, order: 'first' }} lg={{ span:6, order: 'last' }}>
+
             <h2 className="pt-0 pt-5 mt-0 mt-5">Customization at every level</h2>
             <p>iTop’s modular design allows for very high degree of flexibility and customizations.</p>
             <button type="button" className="btn btn-primary text-white">ASK FOR A DEMO</button>
             <button type="button" className="btn custom-link">LEARN MORE</button>
-          </div>
-            <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12">
+          </Col>
 
-              <Carousel controls={false}>
-                <Carousel.Item>
-                  <img
-                    className="d-block imgcarousel"
-                    src={Group_22}
-                    alt="First slide"
-                  />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block imgcarousel"
-                    src={Group_98}
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-                <Carousel.Item>
-                  <img
-                    className="d-block imgcarousel"
-                    src={Group_102}
-                    alt="Third slide"
-                  />
-                  <Carousel.Caption>
-                  </Carousel.Caption>
-                </Carousel.Item>
-              </Carousel>
-            </div>
 
-          </div>
+          </Row>
 
           <div className="row">
             <div className="col-xxl-6 col-xl-6 col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-0 pt-5">

@@ -29,12 +29,12 @@ class App extends Component {
           <React.Suspense fallback={loading}>
             <Switch>
               {/* <Route exact path="/dashboard" name="Dashboard" render={props => <Dashboard {...props}/>} /> */}
-              {/*<Route path="/" name="Home" render={props => <Landing {...props}/>} /> */}
+            {/* */} <Route path="/" name="Home" render={props => <Landing {...props}/>} />
               {/*<Route path="/" name="whywe" render={props => <WhyWe {...props}/>} /> */}
               {/*<Route path="/" name="accounting" render={props => <Accounting {...props}/>} /> */}
-              {/*<Route path="/" name="casestudy" render={props => <CaseStudy {...props}/>} /> */}
-              {/*<Route path="/" name="Pricing" render={props => <Pricing {...props}/>} /> */}
-              <Route path="/" name="Contact" render={props => <Contact {...props}/>} />
+        {/*     <Route path="/" name="casestudy" render={props => <CaseStudy {...props}/>} /> */}
+          {/*    <Route path="/" name="Pricing" render={props => <Pricing {...props}/>} /> */}
+              {/*<Route path="/" name="Contact" render={props => <Contact {...props}/>} /> */}
             </Switch>
           </React.Suspense>
       </HashRouter>

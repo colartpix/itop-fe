@@ -123,23 +123,23 @@ export default class CaseStudy extends Component {
               <h1 className="text-dark text-bold">Case Study</h1>
               <h1 className="text-dark text-bold">Title</h1>
               <h5 className="line-height-banner">Empower your company’s supply chanin management with iTop and allow it to functoin efficiently and cost effectively.</h5>
-              <button className="btn btn-primary text-uppercase">read full story</button>
+              <button className="btn btn-primary text-uppercase mb-4">read full story</button>
             </div>
-            <div className="col-lg-7"><img src={Rectangle_30} className="casestudybanner" /></div>
+            <div className="col-lg-7"><img src={Rectangle_30}  className="w-100 casestudybanner" /></div>
 
           </div>
 
         </div>
 <div className="container-fluid bg-white">
 <div className="container sectionpadding80">
-  <div className="row align-items-center justify-content-between">
-  <div className="col-lg-6"><img src={video} className="boximg" /></div>
+  <Row className="align-items-center justify-content-between">
+  <Col xs={{ span:12, order: 'last' }} sm={{ span:12, order: 'last' }} lg={{ span:6, order: 'first' }}><img src={video} className="w-100 boximg mb-4" /></Col>
 
-    <div className="col-lg-6">
+    <Col xs={{ span:12, order: 'first' }} sm={{ span:12, order: 'first' }} lg={{ span:6, order: 'last' }} className="mb-4">
       <h2 className="text-dark text-bold">Title</h2>
       <h5 className="line-height-banner">iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights. iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights.</h5>
-    </div>
-  </div>
+    </Col>
+  </Row>
 </div>
 
     </div>
@@ -198,7 +198,7 @@ export default class CaseStudy extends Component {
             <div className="container">
                 <h5 className="text-center pb-5 font-bold text-uppercase text-dark">related Case Studies</h5>
                 <div className="row">
-                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
                         <div className="card">
                             <img src={Rectangle_30} className="card-img-top" alt="..." />
                             <div className="card-body text-center">
@@ -207,7 +207,7 @@ export default class CaseStudy extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
                         <div className="card">
                             <img src={Rectangle_31} className="card-img-top" alt="..." />
                             <div className="card-body text-center">
@@ -216,7 +216,7 @@ export default class CaseStudy extends Component {
                             </div>
                         </div>
                     </div>
-                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
+                    <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12 mb-4">
                         <div className="card">
                             <img src={Rectangle_32} className="card-img-top" alt="..." />
                             <div className="card-body text-center">
@@ -242,7 +242,7 @@ export default class CaseStudy extends Component {
                   <h5 className="line-height-banner mb-4">Send the quotation to the delivery of the material can be done with the click of a button. Automate the data entries which reduces manpower investment, much as making it error free.</h5>
                   <button className="btn btn-primary text-uppercase">ask for a demo</button>
                 </div>
-                <div className="col-lg-6"><img src={jambotronwhy} style={{ width: '100%' }} /></div>
+                <div className="col-lg-6"><img src={jambotronwhy} className="w-100" /></div>
 
               </div>
             </div>
