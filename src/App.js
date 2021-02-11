@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import { BrowserRouter, Route, Switch, Redirect } from "react-router-dom";
 import './scss/bootstrap.css';
 import './scss/style.scss';
@@ -10,9 +10,9 @@ import CaseStudyContainer from './containers/Case-study/case-study'
 import PricingContainer from './containers/Pricing/pricing'
 import ContactUsContainer from './containers/Contact-us/contact-us'
 
-class App extends Component {
-
-  render() {
+const App = ({
+  props,
+}) => {
     return (
 
       <BrowserRouter>
@@ -28,6 +28,5 @@ class App extends Component {
       </BrowserRouter>
     );
   }
-}
 
 export default App;
