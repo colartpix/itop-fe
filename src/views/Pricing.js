@@ -1,53 +1,16 @@
-import React, { useState } from 'react';
+import React from 'react';
 import bannerwhy from '../assets/bannerwhy.png';
-import { Modal } from 'react-bootstrap'
 
 import '../scss/style.scss'
-
 import pricing from '../assets/pricing.png';
-import Header from '../itop-components/Header/header'
-import WelcomeToiTop from '../itop-components/Modals/welcome-to-iTop'
-import Verified from '../itop-components/Modals/verified'
-import Signup from '../itop-components/Modals/signup'
+
 
 const Pricing = ({
-
+  props
 }) => {
-  const [welcomeToiTop, setWelcomeToiTop] = useState()
-  const [verified, setVerified] = useState()
-  const [signup, setSignup] = useState()
-
-  const handleShow = () => {
-    setWelcomeToiTop(true)
-  }
-  const actionHandleClose = (data) => {
-    if (data) {
-      setVerified(true)
-      setWelcomeToiTop(false)
-    } else {
-      setWelcomeToiTop(false)
-      setVerified(false)
-    }
-  }
-
-  const actionHandleCloseVerified = (value) => {
-    if (value) {
-      setSignup(true)
-      setVerified(false)
-    } else {
-      setSignup(false)
-      setVerified(false)
-    }
-  }
-
-  const actionHandleCloseSignUp = (value) => {
-    setSignup(false)
-    setVerified(false)
-  }
 
   return (
     <>
-      <Header handleShow={() => handleShow()} />
 
       <div className="container padding-bottom-10">
         <div className="row align-items-center justify-content-between">
@@ -264,34 +227,6 @@ const Pricing = ({
           </div>
         </div>
       </footer>
-
-
-      {welcomeToiTop &&
-        <Modal show={welcomeToiTop} onHide={() => actionHandleClose(false)}>
-          <Modal.Header closeButton></Modal.Header>
-          <Modal.Body>
-            <WelcomeToiTop handleClose={() => actionHandleClose} />
-          </Modal.Body>
-        </Modal>
-      }
-
-      {verified &&
-        <Modal show={verified} onHide={() => actionHandleCloseVerified(false)}>
-          <Modal.Header closeButton></Modal.Header>
-          <Modal.Body>
-            <Verified handleCloseVerified={() => actionHandleCloseVerified} />
-          </Modal.Body>
-        </Modal>
-      }
-
-      {signup &&
-        <Modal show={signup} size={'lg'} onHide={() => actionHandleCloseSignUp(false)}>
-          <Modal.Header closeButton></Modal.Header>
-          <Modal.Body>
-            <Signup handleCloseSignUp={() => actionHandleCloseSignUp} />
-          </Modal.Body>
-        </Modal>
-      }
 
     </>
   );

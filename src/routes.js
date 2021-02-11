@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Landing = React.lazy(() => import('./views/landing'))
+const Landing = React.lazy(() => import('./containers/Landing/landing'))
 
 
 const routes = [
