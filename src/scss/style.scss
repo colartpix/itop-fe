@@ -60,9 +60,9 @@ position: relative;
 .smallContainer{
   width:60%; margin: 0 auto;
 }
-.sectionpadding80{
-  padding: 80px 0;
-}
+// .sectionpadding80{
+//   padding: 80px 15px;
+// }
 .boximg{
   border-radius: 20px;
 box-shadow: 20px 35px 210px #cccccc40;
@@ -123,4 +123,52 @@ font-weight: 700;
 footer ul {
 list-style: none;
 padding-left: 0px;
+}
+
+@media (min-width: 992px){
+  .smallContainer{
+    max-width: 960px;
+    width: 100%;
+  }
+
+}
+@media (min-width: 768px){
+  .smallContainer{
+    max-width: 720px;
+    width: 100%;
+  }
+
+}
+@media (max-width: 576px){
+  .smallContainer{
+    max-width: 100%;
+    width: 100%;
+  }
+
+}
+@media screen and (max-width: 575px){
+  .sectionpadding80 {
+    padding: 20px 15px;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 767px){
+  .sectionpadding80 {
+    padding: 30px 15px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+  .sectionpadding80 {
+    padding: 50px 15px;
+  }
+}
+@media screen and (min-width: 1025px) and (max-width: 1200px){
+  .sectionpadding80 {
+    padding: 50px 15px;
+  }
+}
+@media screen and (min-width: 1201px){
+  .sectionpadding80 {
+    padding: 80px 15px;
+  }
 }
