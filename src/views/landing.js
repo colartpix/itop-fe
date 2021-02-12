@@ -16,6 +16,7 @@ import Group_102 from '../assets/Group_102.png';
 import Rectangle_30 from '../assets/Rectangle_30.png';
 import Rectangle_31 from '../assets/Rectangle_31.png';
 import Rectangle_32 from '../assets/Rectangle_32.png';
+import { Row, Col } from 'react-bootstrap'
 
 
 const Landing = ({

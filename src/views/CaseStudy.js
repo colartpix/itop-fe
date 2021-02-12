@@ -10,6 +10,7 @@ import Rectangle_31 from '../assets/Rectangle_31.png';
 import Rectangle_32 from '../assets/Rectangle_32.png';
 import jambotronwhy from '../assets/jambotronwhy.png';
 import Banner from '../assets/Banner.png';
+import { Row, Col } from 'react-bootstrap'
 
 const CaseStudy = ({
   props
@@ -166,7 +167,7 @@ const CaseStudy = ({
 
 
 
-      </div>
+      {/* </div> */}
       <div className="container sectionpadding80">
         <div className="row align-items-center justify-content-between">
           <div className="col-lg-6">
