@@ -150,16 +150,34 @@ padding-left: 0px;
   .sectionpadding80 {
     padding: 20px 15px;
   }
+  .mobilepaddingtop{
+      padding-top: 25px;
+  }
+  .mobilepaddingbottom{
+      padding-bottom: 25px !important;
+  }
 }
 @media screen and (min-width: 576px) and (max-width: 767px){
   .sectionpadding80 {
     padding: 30px 15px;
+  }
+  .mobilepaddingtop{
+      padding-top: 25px;
+  }
+  .mobilepaddingbottom{
+      padding-bottom: 25px !important;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px){
   .sectionpadding80 {
     padding: 50px 15px;
+  }
+  .mobilepaddingtop{
+      padding-top: 25px;
+  }
+  .mobilepaddingbottom{
+      padding-bottom: 25px !important;
   }
 }
 @media screen and (min-width: 1025px) and (max-width: 1200px){

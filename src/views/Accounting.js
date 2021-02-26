@@ -8,6 +8,7 @@ import chartwhy from '../assets/chartwhy.png';
 import Banner from '../assets/Banner.png';
 import whybox from '../assets/whybox.png';
 import features from '../assets/features.png';
+import { Row, Col } from 'react-bootstrap'
 
 
 const Accounting = ({
@@ -19,7 +20,7 @@ const Accounting = ({
 
       <div className="container ">
         <div className="row align-items-center justify-content-between">
-          <div className="col-lg-3">
+          <div className="col-lg-3 mobilepaddingtop mobilepaddingbottom">
             <h1 className="text-dark text-bold">Financial</h1>
             <h1 className="text-dark text-bold">Accounting</h1>
             <h5 className="line-height-banner">Empower your company’s supply chanin management with iTop and allow it to functoin efficiently and cost effectively.</h5>
@@ -54,11 +55,11 @@ const Accounting = ({
               </div>
             </div>
           </div>
-          <div className="smallContainer pt-5">
-            <img className="w-100" src={Banner} />
-          </div>
-        </div>
 
+        </div>
+        <div className="smallContainer pt-5 pb-3 mobilepaddingbottom">
+          <img className="w-100" src={Banner} />
+        </div>
       </div>
 
       <div className="container-fluid py-5">
@@ -75,14 +76,21 @@ const Accounting = ({
           </div>
         </div>
         <div className="container sectionpadding80">
-          <div className="row align-items-center justify-content-between">
-            <div className="col-lg-6"><img src={chartwhy} className="boximg" /></div>
 
-            <div className="col-lg-6">
+
+
+          <Row className=" align-items-center justify-content-between">
+            <Col className="" xs={{ span:12, order: 'last' }} sm={{ span:12, order: 'last' }} lg={{ span:6, order: 'first' }}>
+
+            <img src={chartwhy} className="boximg w-100" />
+            </Col>
+
+            <Col className="mobilepaddingtop mobilepaddingbottom" xs={{ span:12, order: 'first' }} sm={{ span:12, order: 'first' }} lg={{ span:6, order: 'last' }}>
+
               <h2 className="text-dark text-bold">Customize purchase and stock records to suit our business needs</h2>
               <h5 className="line-height-banner">iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights. iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights.</h5>
-            </div>
-          </div>
+            </Col>
+          </Row>
         </div>
 
       </div>

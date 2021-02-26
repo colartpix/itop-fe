@@ -13,7 +13,7 @@ const Signup = ({
             </div>
             <div className="padding-30">
                 <Row className="justify-content-md-center mb-5">
-                    <Col xs lg="6">
+                    <Col xs lg="6" sm={12}>
                         <Form.Group controlId="formBasicEmail">
                             <Form.Label>First Name</Form.Label>
                             <Form.Control type="text" placeholder="Enter First Name" />
@@ -30,7 +30,7 @@ const Signup = ({
                             </Form.Control>
                         </Form.Group>
                     </Col>
-                    <Col xs lg="6">
+                    <Col xs lg="6" sm={12}>
                         <Form.Group className="" controlId="formBasicPassword">
                             <Form.Label>Last Name</Form.Label>
                             <Form.Control type="text" placeholder="Last Name" />

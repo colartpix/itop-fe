@@ -27,7 +27,7 @@ const Landing = ({
         <>
             <div className="container">
                 <div className="row align-items-center justify-content-between">
-                    <div className="col-lg-3">
+                    <div className="col-lg-3 mobilepaddingtop mobilepaddingbottom">
                         <h1 className="text-dark text-bold">Business.</h1>
                         <h1 className="text-dark text-bold">Made easy.</h1>
                         <h5 className="line-height-banner">A full array of IT solutions and complete customized application development solution</h5>

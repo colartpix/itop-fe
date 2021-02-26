@@ -14,7 +14,7 @@ const Pricing = ({
 
       <div className="container padding-bottom-10">
         <div className="row align-items-center justify-content-between">
-          <div className="col-lg-3">
+          <div className="col-lg-3 mobilepaddingtop mobilepaddingbottom">
             <h1 className="text-dark text-bold">The right price </h1>
             <h1 className="text-dark text-bold">for you</h1>
             <h5 className="line-height-banner">Empower your company’s supply chanin management with iTop and allow it to functoin efficiently and cost effectively.</h5>

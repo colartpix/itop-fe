@@ -21,13 +21,13 @@ const CaseStudy = ({
 
       <div className="container">
         <div className="sectionpadding80 row align-items-center justify-content-between">
-          <div className="col-lg-3">
+          <div className="col-lg-3 mobilepaddingtop mobilepaddingbottom">
             <h1 className="text-dark text-bold">Case Study</h1>
             <h1 className="text-dark text-bold">Title</h1>
             <h5 className="line-height-banner">Empower your company’s supply chanin management with iTop and allow it to functoin efficiently and cost effectively.</h5>
             <button className="btn btn-primary text-uppercase">read full story</button>
           </div>
-          <div className="col-lg-7"><img src={Rectangle_30} className="casestudybanner" /></div>
+          <div className="col-lg-7 mobilepaddingtop"><img src={Rectangle_30} className="casestudybanner " /></div>
 
         </div>
 
@@ -35,27 +35,15 @@ const CaseStudy = ({
       <div className="container-fluid bg-white">
         <div className="container sectionpadding80">
           <div className="row align-items-center justify-content-between">
-            <div className="col-lg-6"><img src={video} className="boximg" /></div>
+            <div className="col-lg-6"><img src={video} className="boximg w-100" /></div>
 
-            <div className="col-lg-6">
+            <div className="col-lg-6 mobilepaddingtop">
               <h2 className="text-dark text-bold">Title</h2>
               <h5 className="line-height-banner">iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights. iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights.</h5>
             </div>
           </div>
         </div>
-<div className="container-fluid bg-white">
-<div className="container sectionpadding80">
-  <Row className="align-items-center justify-content-between">
-  <Col xs={{ span:12, order: 'last' }} sm={{ span:12, order: 'last' }} lg={{ span:6, order: 'first' }}><img src={video} className="w-100 boximg mb-4" /></Col>
 
-    <Col xs={{ span:12, order: 'first' }} sm={{ span:12, order: 'first' }} lg={{ span:6, order: 'last' }} className="mb-4">
-      <h2 className="text-dark text-bold">Title</h2>
-      <h5 className="line-height-banner">iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights. iTop dashboard suite will use data visualization to display key performance indicators that highlight functional performance and generates actionable insights.</h5>
-    </Col>
-  </Row>
-</div>
-
-    </div>
 
       <div className="container-fluid py-5">
         <div className="container">
@@ -140,27 +128,10 @@ const CaseStudy = ({
                     </div>
                 </div>
               </div>
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div className="card">
-                  <img src={Rectangle_31} className="card-img-top" alt="..." />
-                  <div className="card-body text-center">
-                    <p className="card-text">Manage any construction project from the ground up and take care...</p>
-                    <a href="#" className="btn custom-link">READ MORE</a>
-                  </div>
-                </div>
-              </div>
-              <div className="col-xxl-4 col-xl-4 col-lg-4 col-md-6 col-sm-12 col-xs-12">
-                <div className="card">
-                  <img src={Rectangle_32} className="card-img-top" alt="..." />
-                  <div className="card-body text-center">
-                    <p className="card-text">Manage any construction project from the ground up and take care of all...</p>
-                    <a href="#" className="btn custom-link">READ MORE</a>
-                  </div>
-                </div>
-              </div>
+
             </div>
           </div>
-          <div className="smallContainer sectionpadding80 pb-0">
+          <div className="smallContainer sectionpadding80 pb-0 mobilepaddingbottom">
             <img className="w-100" src={Banner} />
           </div>
         </div>

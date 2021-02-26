@@ -13,7 +13,7 @@ const Contact = ({
     <>
       <div className="container">
         <div className="row align-items-center justify-content-between">
-          <div className="col-lg-3">
+          <div className="col-lg-3 mobilepaddingtop mobilepaddingbottom">
             <h1 className="text-dark text-bold">Contact us </h1>
             <h5 className="line-height-banner">Empower your company’s supply chanin management with iTop and allow it to functoin efficiently and cost effectively.</h5>
           </div>
